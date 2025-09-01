@@ -8,14 +8,14 @@ O programa gera jogadores aleatórios e oferece um menu interativo no terminal, 
 ---
 
 ## Estrutura do Projeto
-- **[Main.Dart](./Main.Dart)** → Arquivo principal com a lógica do programa e o menu interativo.
-- **[Classe/Jogador.Dart](./Classe/Jogador.Dart)** → Classe `Jogador`, que define os atributos e métodos de cada jogador.
+- **[Main.Dart](./Main.dart)** → Arquivo principal com a lógica do programa e o menu interativo.
+- **[Classe/Jogador.Dart](./Classe/Jogador.dart)** → Classe `Jogador`, que define os atributos e métodos de cada jogador.
 
 ---
 
 ## Classe e Atributos
 
-### [Classe: `Jogador`](./Classe/Jogador.Dart)
+### [Classe: `Jogador`](./Classe/Jogador.dart)
 Representa um jogador do RPG, com os seguintes atributos:
 
 - `nome` (*String*): Nome do jogador.  
