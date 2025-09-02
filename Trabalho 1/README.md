@@ -48,3 +48,6 @@ O funcionamento do programa segue os seguintes passos:
 3. **Execução contínua:**  
    - Após cada ação, o sistema pergunta se o usuário deseja retornar ao menu.  
    - Caso a resposta seja "n", o programa finaliza com uma mensagem de agradecimento.
+
+## Como Executar
+O usuário ao abrir o Visual Studio Code, deve abrir o terminal e inserir o comando abaixo:
