@@ -27,7 +27,7 @@ final random = Random();
   }
 String? resp;
 do{
-
+//----Menu
 print("-----BEM VINDO AO RPG DO PLAYNIUM-----\n\n");
   print("Escolha uma das opções abaixo:\n");
   print("1- Veja todos os jogadores\n" +
@@ -40,7 +40,7 @@ print("-----BEM VINDO AO RPG DO PLAYNIUM-----\n\n");
   print("R: ");
 resp = stdin.readLineSync();
 
- switch(int.tryParse(resp ?? '')){
+ switch(int.tryParse(resp ?? '')){ //Switch com todas as opções do menu, onde cada uma chama uma função para realizar a ação especifica
           case 1:
           resp = todosOsJogadores(jogadores);
           break;
@@ -62,14 +62,14 @@ resp = stdin.readLineSync();
           break;
 
           case 6:
-          resp = verificarClassificacao(jogadores);
+          resp = verificarIdades(jogadores);
           break;
 
           case 7:
           print("Obrigado por usar o nosso sistema do Playnium\n\n Volte sempre");
           break;
 
-          default:
+          default: //Caso digite algo sem ser uma das opções, ele informe essa mensagem e retorne ao menu
           print("Opção Invalida, favor inserir novamente");
           break;
         }
@@ -91,7 +91,7 @@ String todosOsJogadores(List<Jogador> jogadores){
     String NomeMaiorNivel = "";
     int MenorNivel = 100;
     String NomeMenorNivel = "";
-for(Jogador player in niveis){
+for(Jogador player in niveis){ //Pecorre todos os jogadores e faz a verificação dos niveis para ser exibido os usuários com maior nível e menor nível
     if(player.nivel > MaiorNivel){
       MaiorNivel = player.nivel;
       NomeMaiorNivel = player.nome;
@@ -108,9 +108,8 @@ for(Jogador player in niveis){
   
 
 
-  // A função não precisa mais da lista de nomes original, apenas dos jogadores
 String jogadoresComNomesIguais(List<Jogador> jogadores) {
-  // Novamente, um Map é a estrutura de dados ideal para contar.
+  // O Map é usado para estruturar os dados para contar.
   // Chave: nome do jogador (String), Valor: contagem (int).
   Map<String, int> contagemNomes = {};
 
@@ -143,21 +142,18 @@ String jogadoresComNomesIguais(List<Jogador> jogadores) {
 
   return mensagemFinal(3);
 }
-
+// Segue a mesma lógica da função {jogadoresComNomesIguais}
   String classeComMaisJogadores(List<Jogador> jogadores){
-  // Usar um Map é muito mais eficiente para contar ocorrências.
-  // A chave será o nome da classe (String) e o valor será a contagem (int).
+  
   Map<String, int> contagemClasses = {};
 
-  // 1. Itera sobre os jogadores para contar as classes.
+  
   for (Jogador player in jogadores) {
-    // Para cada jogador, acessa sua classe e incrementa a contagem no mapa.
-    // O (contagemClasses[player.classe] ?? 0) garante que, se a classe ainda
-    // não estiver no mapa, ela comece com 0 antes de somar 1.
+    
     contagemClasses[player.classe] = (contagemClasses[player.classe] ?? 0) + 1;
   }
 
-  // 2. Encontra qual é a maior contagem de jogadores.
+  
   int maximoJogadores = 0;
   for (int contagem in contagemClasses.values) {
     if (contagem > maximoJogadores) {
@@ -165,12 +161,10 @@ String jogadoresComNomesIguais(List<Jogador> jogadores) {
     }
   }
 
-  // 3. Verifica se realmente existe alguma classe com mais de 1 jogador.
   if (maximoJogadores <= 1) {
     print("Nenhuma classe tem mais de um jogador.\n\n");
   } 
   else {
-    // 4. Encontra todas as classes que têm essa contagem máxima.
     List<String> classesMaisPopulares = [];
     contagemClasses.forEach((classe, contagem) {
       if (contagem == maximoJogadores) {
@@ -178,7 +172,6 @@ String jogadoresComNomesIguais(List<Jogador> jogadores) {
       }
     });
 
-    // 5. Exibe o resultado.
     print("A(s) classe(s) com mais jogadores é(são):\n");
     for (String classe in classesMaisPopulares) {
       print("Classe: $classe\nQuantidade de jogadores: $maximoJogadores\n");
@@ -187,21 +180,18 @@ String jogadoresComNomesIguais(List<Jogador> jogadores) {
 
   return mensagemFinal(4);
 }
-
+// Segue a mesma lógica da função {jogadoresComNomesIguais}
 String plataformascomvariosplayers(List<Jogador> jogadores){
-  // Usar um Map é muito mais eficiente para contar ocorrências.
-  // A chave será o nome da Plataformas (String) e o valor será a contagem (int).
+
   Map<String, int> contagemPlataformas = {};
 
-  // 1. Itera sobre os jogadores para contar as plataformas.
+  
   for (Jogador player in jogadores) {
-    // Para cada jogador, acessa sua plataforma e incrementa a contagem no mapa.
-    // O (contagemPlataformas[player.plataforma] ?? 0) garante que, se a plataforma ainda
-    // não estiver no mapa, ela comece com 0 antes de somar 1.
+    
     contagemPlataformas[player.plataforma] = (contagemPlataformas[player.plataforma] ?? 0) + 1;
   }
 
-  // 2. Encontra qual é a maior contagem de jogadores.
+  
   int maximoJogadores = 0;
   for (int contagem in contagemPlataformas.values) {
     if (contagem > maximoJogadores) {
@@ -209,12 +199,12 @@ String plataformascomvariosplayers(List<Jogador> jogadores){
     }
   }
 
-  // 3. Verifica se realmente existe alguma classe com mais de 1 jogador.
+  
   if (maximoJogadores <= 1) {
     print("Nenhuma plataforma tem mais de um jogador.\n\n");
   } 
   else {
-    // 4. Encontra todas as plataformas que têm essa contagem máxima.
+   
     List<String> plataformasMaisPopulares = [];
     contagemPlataformas.forEach((plataforma, contagem) {
       if (contagem == maximoJogadores) {
@@ -222,7 +212,7 @@ String plataformascomvariosplayers(List<Jogador> jogadores){
       }
     });
 
-    // 5. Exibe o resultado.
+    
     print("A(s) plataforma(s) com mais jogadores é(são):\n");
     for (String classe in plataformasMaisPopulares) {
       print("Plataforma: $classe\nQuantidade de jogadores: $maximoJogadores\n");
@@ -231,12 +221,12 @@ String plataformascomvariosplayers(List<Jogador> jogadores){
 
   return mensagemFinal(5);
 }
-
-String verificarClassificacao(List<Jogador> idades) {
+// Função para verificar a idade dos jogadores
+String verificarIdades(List<Jogador> idades) {
 List<String> jogadoresAdultos = [];
 List<String> jogadoresAdolecentes = [];
 List<String> jogadoresCriancas = [];
-for(Jogador player in idades){
+for(Jogador player in idades){ //Ao percorrer todos os jogadores, ele verifica as idades e adiciona na lista recorrente a sua idade
 if(player.idade >= 18){
   jogadoresAdultos.add(player.nome);
 }
@@ -272,7 +262,7 @@ else{
 return mensagemFinal(6);
 
 }
-  
+  // Função para ao final de cada função ser feito a pergunta se deseja voltar ao menu
   String mensagemFinal( int opcao){
     print("Deseja retornar ao menu?[y|n]");
     String? resp = stdin.readLineSync();
