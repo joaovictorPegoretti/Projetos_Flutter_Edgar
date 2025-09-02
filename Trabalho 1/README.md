@@ -51,3 +51,11 @@ O funcionamento do programa segue os seguintes passos:
 
 ## Como Executar
 O usuário ao abrir o Visual Studio Code, deve abrir o terminal e inserir o comando abaixo:
+
+``` dart run main.dart ```
+
+Após essa etapa, será mostrado o menu de interação. Nesse menu será informado as opções que você pode inserir para que seja feito as ações desejada.
+
+Segue abaixo um GIF mostrando todo o passo a passo:
+
+![Passo_a_Passo Trabalho 1](https://github.com/user-attachments/assets/d9ccee21-2873-48e1-b89a-aa7753311151)
