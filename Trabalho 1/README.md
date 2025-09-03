@@ -1,5 +1,10 @@
 # Trabalho 1 – RPG do Playnium
 
+#Desenvolvedores
+- [Eduardo Cansian Rodrigues](https://github.com/EduardoCansian)
+- [João Victor Marcarini Pegoretti](https://github.com/joaovictorPegoretti)
+- [Samuel Thompson Barbosa](https://github.com/samuel-tb)
+
 ## Descrição
 Este projeto foi desenvolvido em **Dart** como parte do Trabalho 1.  
 O objetivo é simular um sistema de gerenciamento de jogadores em um RPG fictício chamado *Playnium*.  
