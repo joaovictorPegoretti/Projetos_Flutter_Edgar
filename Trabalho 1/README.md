@@ -1,6 +1,6 @@
 # Trabalho 1 – RPG do Playnium
 
-#Desenvolvedores
+## Desenvolvedores
 - [Eduardo Cansian Rodrigues](https://github.com/EduardoCansian)
 - [João Victor Marcarini Pegoretti](https://github.com/joaovictorPegoretti)
 - [Samuel Thompson Barbosa](https://github.com/samuel-tb)
