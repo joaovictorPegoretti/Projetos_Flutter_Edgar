@@ -63,4 +63,4 @@ Após essa etapa, será mostrado o menu de interação. Nesse menu será informa
 
 Segue abaixo um GIF mostrando todo o passo a passo:
 
-![Passo_a_Passo Trabalho 1](https://github.com/user-attachments/assets/d9ccee21-2873-48e1-b89a-aa7753311151)
+
