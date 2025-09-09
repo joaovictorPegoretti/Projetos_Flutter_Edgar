@@ -1,16 +1,21 @@
-# trabalho_2
+# Trabalho 2 – RPG do Playnium
 
-A new Flutter project.
+## Desenvolvedores
+- [Eduardo Cansian Rodrigues](https://github.com/EduardoCansian)
+- [João Victor Marcarini Pegoretti](https://github.com/joaovictorPegoretti)
+- [Samuel Thompson Barbosa](https://github.com/samuel-tb)
 
-## Getting Started
+## Descrição
+Esta etapa dá continuidade ao projeto inicial. O objetivo é criar a primeira interface de usuário para o aplicativo, conectando a lógica de dados já implementada a uma estrutura visual simples. A aplicação de console da Parte 1 foi transformada em uma aplicação Flutter funcional que exibe os dados em uma tela.
 
-This project is a starting point for a Flutter application.
+## Estrutura do Projeto
+main.dart: Arquivo principal que foi reestruturado para o template padrão do Flutter (runApp, MaterialApp, etc.). Ele agora contém a lógica de exibição da interface.
+Jogador.dart: A classe Jogador e a lista de dados da Parte 1 foram mantidas e integradas à inicialização da aplicação.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Lógica Implementada na UI
+Reestruturação: A lógica de geração de jogadores foi adaptada para ser utilizada dentro da aplicação Flutter.
+Construção da UI: Um StatelessWidget foi criado para exibir os dados da lista de jogadores.
+Widgets de Layout: A interface utiliza Scaffold e AppBar. A exibição da lista de jogadores é feita através do widget ListView.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Captura de Tela
