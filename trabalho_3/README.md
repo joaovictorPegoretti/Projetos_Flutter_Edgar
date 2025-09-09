@@ -1,4 +1,4 @@
-# Trabalho 3 – RPG do Playnium - Interatividade de Estrutura de Estado
+# Trabalho 3 – RPG do Playnium - Interatividade e Estrutura de Estado
 
 ## Desenvolvedores
 
