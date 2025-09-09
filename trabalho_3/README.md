@@ -38,5 +38,6 @@ O **`StatefulWidget`** é a base para o gerenciamento de estado neste projeto. E
 ---
 
 ### Captura de Tela
+<img width="1919" height="990" alt="image" src="https://github.com/user-attachments/assets/58fc5097-5d5f-436f-aa92-fa2a05946ed6" />
 
 
