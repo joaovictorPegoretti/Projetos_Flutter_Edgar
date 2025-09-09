@@ -26,3 +26,5 @@ Esta etapa dá continuidade ao projeto inicial. O objetivo é criar a primeira i
 ---
 
 ## Captura de Tela
+<img width="1913" height="978" alt="image" src="https://github.com/user-attachments/assets/455a315a-ac46-410b-9c6d-0a825ab17aa0" />
+
