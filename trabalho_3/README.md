@@ -35,6 +35,7 @@ Este projeto é um aplicativo **Flutter** desenvolvido para a disciplina de **Co
 ## Lógica de Gerenciamento de Estado
 O **`StatefulWidget`** é a base para o gerenciamento de estado neste projeto. Ele permite que o estado da aplicação seja mutável, ao contrário do `StatelessWidget`. A lógica funciona da seguinte forma: quando a ação do botão é acionada (e.g., um novo item é adicionado), os dados internos do estado são alterados, e a chamada ao método **`setState()`** informa ao Flutter que o estado mudou. O framework, então, reconstrói apenas os widgets que dependem desse estado, garantindo uma atualização reativa e eficiente da interface do usuário. Esta é a essência do gerenciamento de estado no Flutter.
 
+---
 
 ### Captura de Tela
 
