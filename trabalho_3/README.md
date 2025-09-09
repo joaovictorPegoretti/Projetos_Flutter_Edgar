@@ -25,11 +25,11 @@ Este projeto é um aplicativo **Flutter** desenvolvido para a disciplina de **Co
 ## Funcionalidades Implementadas
 O funcionamento da aplicação segue a evolução dos requisitos do trabalho:
 
-1.  **Conversão do Widget**: O widget principal foi modificado de um `StatelessWidget` para um **`StatefulWidget`**, permitindo que o estado da aplicação seja alterado.
-2.  **Adição de Interatividade**: Um botão interativo, como um **`FloatingActionButton`** ou **`ElevatedButton`**, foi incluído na interface.
-3.  **Lógica de Estado**: Uma função foi implementada para o botão que, ao ser pressionada, realiza uma ação de modificação na lista de dados, como adicionar um novo item, remover o primeiro item ou alterar a ordem dos elementos.
-4.  **Atualização da UI**: O método **`setState()`** foi utilizado para notificar o framework de que houve uma mudança no estado, garantindo que a tela seja redesenhada para refletir a alteração nos dados.
-5.  **Refinamento Visual**: A exibição dos dados na tela foi aprimorada utilizando widgets como **`Card`** ou **`ListTile`** para cada item da lista.
+- **Conversão do Widget**: O widget principal foi modificado de um `StatelessWidget` para um **`StatefulWidget`**, permitindo que o estado da aplicação seja alterado.
+- **Adição de Interatividade**: Um botão interativo, como um **`FloatingActionButton`** ou **`ElevatedButton`**, foi incluído na interface.
+- **Lógica de Estado**: Uma função foi implementada para o botão que, ao ser pressionada, realiza uma ação de modificação na lista de dados, como adicionar um novo item, remover o primeiro item ou alterar a ordem dos elementos.
+- **Atualização da UI**: O método **`setState()`** foi utilizado para notificar o framework de que houve uma mudança no estado, garantindo que a tela seja redesenhada para refletir a alteração nos dados.
+- **Refinamento Visual**: A exibição dos dados na tela foi aprimorada utilizando widgets como **`Card`** ou **`ListTile`** para cada item da lista.
 
 ---
 
