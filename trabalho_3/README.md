@@ -17,7 +17,7 @@ Este projeto é um aplicativo **Flutter** desenvolvido para a disciplina de **Co
 - **[lib/main.dart](./lib/main.dart)** → Arquivo principal com a lógica e a interface da aplicação.
 - **[windows/CMakeLists.txt](./windows/CMakeLists.txt)** → Configurações do projeto para a plataforma Windows.
 - **[linux/CMakeLists.txt](./linux/CMakeLists.txt)** → Configurações do projeto para a plataforma Linux.
-- **[android/build.gradle.kts](./android/)** → Configurações do projeto para a plataforma Android.
+- **[android/build.gradle.kts](./android/build.gradle.kts)** → Configurações do projeto para a plataforma Android.
 - **[.gitignore](.gitignore)** → Arquivo que gerencia os arquivos e diretórios que o Git deve ignorar, como `build/` e `.dart_tool/`.
 
 ---
