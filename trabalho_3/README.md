@@ -1,4 +1,4 @@
-# Trabalho 3 – Computação Móvel
+# Trabalho 3 – RPG do Playnium - Interatividade de Estrutura de Estado
 
 ## Desenvolvedores
 
@@ -23,7 +23,6 @@ Este projeto é um aplicativo **Flutter** desenvolvido para a disciplina de **Co
 ---
 
 ## Funcionalidades Implementadas
-O funcionamento da aplicação segue a evolução dos requisitos do trabalho:
 
 - **Conversão do Widget**: O widget principal foi modificado de um `StatelessWidget` para um **`StatefulWidget`**, permitindo que o estado da aplicação seja alterado.
 - **Adição de Interatividade**: Um botão interativo, como um **`FloatingActionButton`** ou **`ElevatedButton`**, foi incluído na interface.
