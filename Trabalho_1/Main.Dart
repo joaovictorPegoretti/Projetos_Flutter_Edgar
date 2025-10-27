@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'Classe/Jogador.dart';
+import '../Trabalho 1/Classe/Jogador.dart';
 import 'dart:core';
 import 'dart:math';
 
