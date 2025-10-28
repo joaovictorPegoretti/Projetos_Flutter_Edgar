@@ -42,7 +42,7 @@ Trabalho 4/
 O projeto trabalha com **dois conceitos principais**: `Jogador` e `Guilda`.
 
 ### Classe [Jogador](/Trabalho%204/lib/Modelos/Jogador.dart)
-Representa os dados do jogador e contém:
+Representa as informações do jogador e contém:
 - `id` (int)
 - `nome` (string)
 - `nivel` (int)
@@ -52,7 +52,7 @@ Representa os dados do jogador e contém:
 - `guildaId` (int)
 
 ### Classe [Guilda](/Trabalho%204/lib/Modelos/Guilda.dart)
-Representa os dados do jogador e contém:
+Representa as informações da guilda e contém:
 - `id` (int)
 - `nome` (string)
 - `tag` (string)
