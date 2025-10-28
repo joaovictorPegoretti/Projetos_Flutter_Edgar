@@ -41,7 +41,7 @@ Trabalho 4/
 
 O projeto trabalha com **dois conceitos principais**: `Jogador` e `Guilda`.
 
-### Classe [Jogador](Trabalho%204/lib/Modelos/Jogador.dart)
+### Classe [Jogador](/Trabalho%204/lib/Modelos/Jogador.dart)
 Representa os dados do jogador e contém:
 - `id` (int)
 - `nome` (string)
@@ -51,7 +51,7 @@ Representa os dados do jogador e contém:
 - `idade` (int)
 - `guildaId` (int)
 
-### Classe [Guilda](Trabalho%204/lib/Modelos/Guilda.dart)
+### Classe [Guilda](/Trabalho%204/lib/Modelos/Guilda.dart)
 Representa os dados do jogador e contém:
 - `id` (int)
 - `nome` (string)
@@ -132,7 +132,7 @@ class Banco {
 
 A lógica de persistência foi isolada em **repositórios**, garantindo que a camada de interface (UI) não acesse o banco diretamente.
 
-### [DadosGuilda.dart](Trabalho%204/lib/Dados/DadosGuilda.dart)
+### [Dados da Guilda](/Trabalho%204/lib/Dados/DadosGuilda.dart)
 Contém os métodos:
 ```dart
 Future<int> salvar(Guilda guilda) async {
@@ -147,7 +147,7 @@ Future<int> salvar(Guilda guilda) async {
   }
 ```
 
-### [DadosJogador.dart](Trabalho%204/lib/Dados/DadosJogador.dart)
+### [Dados do Jogador](/Trabalho%204/lib/Dados/DadosJogador.dart)
 Contém os métodos:
 ```dart
 Future<int> salvar(Jogador jogador) async {
