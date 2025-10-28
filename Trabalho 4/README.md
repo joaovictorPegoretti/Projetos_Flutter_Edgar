@@ -5,11 +5,11 @@ O objetivo principal foi implementar a **camada de dados com persistência local
 
 ---
 
-## Objetivo
+## Objetivo e Justificativa
 
 Migrar uma aplicação Flutter que antes utilizava listas em memória para uma solução com **persistência de dados local**, garantindo que as informações sejam salvas e recuperadas mesmo após o fechamento do aplicativo.  
 
-O projeto foi implementado utilizando o banco **SQLite** através da biblioteca **`sqflite`**.
+O projeto foi implementado utilizando o banco **SQLite** através da biblioteca **`sqflite`**, pois esta oferece um controle robusto e nativo de banco de dados relacional no dispositivo, sendo ideal para a estrutura de dados proposta.
 
 ---
 
