@@ -20,18 +20,18 @@ A aplicação foi dividida em camadas para facilitar a manutenção e a compreen
 ```
 Trabalho 4/
 ├── lib/
-│   ├── models/
-│   │   ├── categoria.dart
-│   │   └── produto.dart
-│   ├── repositories/
-│   │   ├── categoria_repository.dart
-│   │   └── produto_repository.dart
-│   ├── database/
-│   │   └── database_helper.dart
-│   ├── main.dart
-│   └── pages/
-│       ├── categoria_page.dart
-│       └── produto_page.dart
+│   ├── Banco/
+│   │   └── Config.dart
+│   ├── Dados/
+│   │   ├── DadosGuilda.dart
+|   |   └── DadosJogador.dart
+│   ├── Modelos/
+│   │   ├── Guilda.dart
+│   │   └── Jogador.dart
+│   ├── Telas/
+│   |   ├── FormularioGuilda.dart
+│   |   └── FormularioJogador.dart
+|   ├── main.dart
 ├── pubspec.yaml
 ```
 
