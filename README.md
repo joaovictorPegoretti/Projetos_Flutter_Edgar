@@ -10,7 +10,7 @@ Esse repositório tem o intuito de ser usado para organizar os trabalhos de dese
 ---
 
 # Trabalhos - 1° Bimestre:
--  **[Parte 1](/Trabalho%201)**
+-  **[Parte 1](/Trabalho_1)**
 -  **[Parte 2](/trabalho_2)**
 -  **[Parte 3](/trabalho_3)**
 
