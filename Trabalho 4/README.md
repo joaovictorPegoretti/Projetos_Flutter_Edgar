@@ -168,10 +168,15 @@ Os métodos utilizam `await` para acesso assíncrono ao banco, evitando travamen
 
 ## Teste de Persistência
 
-Durante os testes, foi verificado que:
-- As inserções são salvas corretamente no banco local;
-- A leitura retorna as listas de categorias e produtos completas;
-- O uso de `async/await` garante operações não bloqueantes.
+[cite_start]A lógica de persistência foi validada através de uma função de inicialização no `main.dart`[cite: 62], que verifica se o banco está vazio e, em caso afirmativo, insere dados de teste.
+
+- As inserções são salvas corretamente no banco local.
+- A leitura retorna as listas de guildas e jogadores completas para a interface.
+- [cite_start]O uso de `async/await` garante operações não bloqueantes[cite: 67].
+
+**Resultado da Escrita (Saída do Console na primeira execução):**
+
+[cite_start]O console exibe as seguintes mensagens, confirmando a inserção dos dados de teste:
 
 ---
 
