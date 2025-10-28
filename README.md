@@ -18,6 +18,6 @@ Esse repositório tem o intuito de ser usado para organizar os trabalhos de dese
 
 # Trabalhos - 2° Bimestre:
 
-- **[Parte 1](/Trabalho%204)
+- **[Parte 1](/Trabalho%204)**
 
 ---
