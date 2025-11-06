@@ -203,7 +203,37 @@ O console exibe as seguintes mensagens, confirmando a inserção dos dados de te
    ```bash
    flutter run
    ```
+5.Escolha a opção que deseja executar:
+```bash
+Connected devices:
+Windows (desktop) • windows • windows-x64    • Microsoft Windows [versÆo 10.0.26100.6584]
+Chrome (web)      • chrome  • web-javascript • Google Chrome 141.0.7390.125
+Edge (web)        • edge    • web-javascript • Microsoft Edge 142.0.3595.53
+[1]: Windows (windows)
+[2]: Chrome (chrome)
+[3]: Edge (edge)
+Please choose one (or "q" to quit):
+```
+6.Resultado do Console:
+```bash
+Launching lib\main.dart on Windows in debug mode...
+Building Windows application...                                     9,8s
+√ Built build\windows\x64\runner\Debug\projeto.exe
+O banco de dados já contém dados. Exibindo na tela.
+Syncing files to device Windows...                                  66ms
 
+Flutter run key commands.
+r Hot reload.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on Windows is available at: http://127.0.0.1:59808/p3aIVN1uNwI=/
+The Flutter DevTools debugger and profiler on Windows is available at:
+http://127.0.0.1:9101?uri=http://127.0.0.1:59808/p3aIVN1uNwI=/
+```
 ---
 
 ## Desenvolvedores
