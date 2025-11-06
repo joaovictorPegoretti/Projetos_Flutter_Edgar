@@ -76,17 +76,27 @@ Abaixo estão os GIFs que demonstram as funcionalidades de CRUD e gerenciamento 
 ### 1. A Lista sendo carregada corretamente
 *(Demonstração do `Consumer<JogadorProvider>` exibindo um `CircularProgressIndicator` enquanto `isLoading` é verdadeiro e, em seguida, exibindo o `ListView` quando os dados são carregados do banco).*
 
-`[COLE AQUI SEU GIF/IMAGEM DA LISTA SENDO CARREGADA]`
+<img width="1581" height="889" alt="image" src="https://github.com/user-attachments/assets/d564b919-cf41-4a53-a28b-c8995992dc82" />
+
+
 
 ### 2. A Tela de Edição sendo aberta com dados preenchidos
 *(Demonstração do fluxo de clicar em um item `Jogador` na `MenuScreen`, o que chama `Navigator.push` passando o objeto `jogador` para o construtor do `FormularioJogadorScreen`, que por sua vez preenche os campos do formulário no `initState`).*
 
-`[COLE AQUI SEU GIF/IMAGEM CLICANDO EM UM ITEM E ABRINDO O FORMULÁRIO PREENCHIDO]`
+- Jogador
+<img width="1579" height="887" alt="image" src="https://github.com/user-attachments/assets/6209169b-6cbb-4de5-a7ff-6f958380880c" />
+- Guilda
+<img width="1583" height="888" alt="image" src="https://github.com/user-attachments/assets/5906c512-eb64-450e-bacb-16b2b34ef27e" />
+
 
 ### 3. A funcionalidade de Exclusão em ação
 *(Demonstração do widget `Dismissible` na `MenuScreen`. Ao arrastar um card para a esquerda, o `onDismissed` é acionado, chamando `_deletarJogador()`. Esta função chama `Provider.of<JogadorProvider>().deletarJogador(id)`, que remove do banco e atualiza a lista na UI).*
 
-`[COLE AQUI SEU GIF/IMAGEM DA EXCLUSÃO DE UM ITEM]`
+- Jogador
+![20251106-2305-10 6289993](https://github.com/user-attachments/assets/392c82d1-ad19-4f64-ab05-2356a97a59ee)
+- Guilda
+![20251106-2306-48 7679773](https://github.com/user-attachments/assets/ff04b4eb-5290-4df9-9530-a04fe19ece3d)
+
 
 ---
 
