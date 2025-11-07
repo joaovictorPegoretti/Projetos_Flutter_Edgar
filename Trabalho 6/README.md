@@ -4,7 +4,7 @@
 
 ## 1. Resultados dos Testes (flutter test)
 
-Conforme solicitado, foi criada uma suíte de testes de unidade e de widget para validar a lógica de negócios e a interface do aplicativo.
+Foi criada uma suíte de testes de unidade e de widget para validar a lógica de negócios e a interface do aplicativo.
 
 A captura de tela abaixo comprova a execução bem-sucedida de todos os testes (`flutter test`), com todos passando "em verde".
 
@@ -13,8 +13,6 @@ A captura de tela abaixo comprova a execução bem-sucedida de todos os testes (
 ---
 
 ## 2. Descrição dos Testes Relevantes
-
-De acordo com o requisito, detalhamos abaixo o teste de unidade mais complexo e o teste de widget mais relevante implementados.
 
 ### Teste de Unidade Mais Complexo: Atualização e Validação do Repositório (Update)
 
