@@ -177,7 +177,9 @@ A lógica de persistência foi validada através de uma função de inicializaç
 **Resultado da Escrita (Saída do Console na primeira execução):**
 
 O console exibe as seguintes mensagens, confirmando a inserção dos dados de teste:
-
+```bash
+O banco de dados já contém dados. Exibindo na tela.
+```
 ---
 
 ## Execução do Projeto
